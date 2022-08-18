@@ -1,0 +1,27 @@
+{
+  "name": "minivue-sjm",
+  "version": "1.0.1",
+  "description": "这是一个实现Vue框架部分功能的miniVue",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -cw"
+  },
+  "bin": {
+    "sjmvue-cli": "./bin/www.js"
+  },
+  "keywords": [
+    "vue",
+    "学习",
+    "前端框架"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^2.78.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
